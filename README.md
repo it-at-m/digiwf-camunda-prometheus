@@ -1,35 +1,14 @@
-<div id="top"></div>
-
-<!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
+# DigiWF Camunda Prometheus Exporter
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/it-at-m/digiwf-camunda-prometheus">
-    <img src="images/logo.png" alt="Logo" height="200">
-  </a>
+The DigiWF Camunda Prometheus Exporter library exports Camunda Metrics for prometheus and allows to register own metric providers for [digiwf](https://digiwf.oss.muenchen.de).
 
-<h3 align="center">DigiWF Camunda Prometheus Exporter</h3>
-
-  <p align="center">
-    This is a Spring Boot Starter library to export Camunda Metrics for Prometheus
-     <!-- <br />
-   <a href="https://github.com/it-at-m/digiwf-camunda-prometheus"><strong>Explore the docs »</strong></a> -->
-    <br />
-    <br />
-     <!-- <a href="https://github.com/it-at-m/digiwf-camunda-prometheus">View Demo</a>
-    · -->
-    <a href="https://github.com/it-at-m/digiwf-camunda-prometheus/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/it-at-m/digiwf-camunda-prometheus/issues">Request Feature</a>
-  </p>
-</div>
+<img src="images/screenshot.png" alt="Logo">
 
 
 
@@ -54,26 +33,16 @@
 </details>
 
 
-
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
-
-The DigiWF Camunda Prometheus Exporter library exports Camunda Metrics for prometheus and allows to register own metric
-providers.
-
- <img src="images/screenshot.png" alt="Logo">
-
-**Features**
+## Features
 
 * **Task Metrics:** Metrics for assigned and unanssigned tasks
 * **Incident Metrics:** Open Incidents
 * **Process Metrics:** Deployed Definitions and Open Process Instances
 * **Job Metrics:** Executable, suspended and future job metrics
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With
+
+## Built With
 
 This project is built with:
 
@@ -81,10 +50,6 @@ This project is built with:
 * [Micrometer](https://micrometer.io/)
 * Inspired by [Camunda Prometheus Exporter](https://github.com/camunda-consulting/prometheus-camunda-exporter)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- GETTING STARTED -->
 
 ## Getting Started
 
@@ -119,7 +84,7 @@ implementation group: 'org.springframework.boot', name: 'spring-boot-starter-act
 
 3. Add your own Metrics by implementing the ``MetricsProvider`` Interface
 
-<!-- CONTRIBUTING -->
+
 
 ## Contributing
 
@@ -135,32 +100,19 @@ simply open an issue with the tag "enhancement". Don't forget to give the projec
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- CONTACT -->
 
 ## Contact
 
-it@m - opensource@muenchendigital.io
+it@M - opensource@muenchen.de
 
 Join our [Slack Channel](https://join.slack.com/t/digiwf/shared_invite/zt-14jxazj1j-jq0WNtXp7S7HAwJA7tKgpw) for more
 information!
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/it-at-m/digiwf-camunda-prometheus.svg?style=for-the-badge
 
